@@ -1,0 +1,38 @@
+@mixin box-common {
+  color: $white;
+  height: 120px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.days {
+  @include box-common;
+  background-color: $darkRed;
+  font-size: 35px;
+  line-height: 40px;
+  padding-top: 20px;
+}
+
+.times {
+  @include box-common;
+  background-color: $darkBlue;
+  font-size: 60px;
+  line-height: 60px;
+  padding-top: 30px;
+}
+
+.cost {
+  @include box-common;
+  background-color: $darkBlue;
+  font-size: 60px;
+  line-height: 60px;
+  padding-top: 30px;
+}
+
+.equipment {
+  @include box-common;
+  background-color: $darkRed;
+  font-size: 30px;
+  line-height: 30px;
+  padding-top: 30px;
+}

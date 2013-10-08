@@ -1,0 +1,29 @@
+.testimonial-quote {
+  background-color: #EEEEEE;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.testimonial-from {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.available-class {
+  margin-bottom: 20px;
+  border-bottom: 1px solid $darkRed;
+  p, h3 {
+    margin-left: 103px;
+  }
+}
+
+.class-icon {
+  border: 7px solid $darkRed;
+  width: 70px;
+  color: $darkRed;
+  font-size: 40px;
+  padding: 20px 0;
+  font-weight: bold;
+  margin-right: 20px;
+  margin-top: 10px;
+}

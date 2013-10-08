@@ -1,0 +1,10 @@
+.custom-footer {
+  background-color: $lightGrey;
+  color: $darkGrey;
+  height: 80px;
+  padding-top: 10px;
+  border-top: 5px solid $darkRed;
+  a {
+    color: $darkGrey;
+  }
+}

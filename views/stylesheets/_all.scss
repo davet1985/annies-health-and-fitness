@@ -1,0 +1,21 @@
+body {
+  background-color: $lightGrey;
+}
+
+main {
+  background: #ffffff url('/images/subtle-vertical-stripes-1473.png') repeat left top;
+  background-color: $white;
+  padding-bottom: 10px;
+}
+
+a {
+  text-decoration: underline;
+}
+
+h2 {
+  font-family: 'Technically, But Not Actually';
+  font-size: 37px;
+  border-bottom: 5px solid $darkRed;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}

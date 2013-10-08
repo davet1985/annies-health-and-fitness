@@ -1,0 +1,30 @@
+$navBarHeight: 74px;
+
+.nav-row {
+  background-color: $darkBlue;
+  margin-bottom: 20px;
+  height: $navBarHeight;
+  border-radius: 5px;
+}
+
+ul.custom-nav-list > li {
+  height: $navBarHeight;
+  padding: 0;
+  a {
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: $navBarHeight;
+    padding: 25px 20px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  a:hover {
+    background-color: $white;
+    color: $darkBlue;
+    text-decoration: none;
+  }
+}
+
+.custom-nav-item-active {
+  background-color: $darkRed;
+}
