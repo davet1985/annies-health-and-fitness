@@ -5,6 +5,7 @@ require 'sinatra/reloader'
 require 'sinatra/twitter-bootstrap'
 require 'haml'
 require 'sass'
+require 'pony'
 
 class SeedApp < Sinatra::Base
 

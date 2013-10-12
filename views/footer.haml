@@ -1,14 +1,28 @@
 .row-fluid
   .span12.custom-footer
     .container-fluid
-      .span6
-        %ul.inline.pull-left
+      .span2
+        %ul.unstyled
           %li
-            %a{:href=>'/'} Home
+            %a{:href=>url('/')} Home
           %li
-            %a{:href=>'/contact'} Contact
-      .span6
-        %ul.inline.pull-right
+            %a{:href=>url('/contact')} Get in touch
+      .span7
+        .sub-heading  Classes
+        %ul.inline
           %li
-            Built by
-            %a{:href=>'http://www.dave-thompson.co.uk'} Dave Thompson
+            %a{:href=>url('/classes/kettlebells')} Kettlebells
+          %li
+            %a{:href=>url('/classes/park-fitness')} Park fitness
+          %li
+            %a{:href=>url('/classes/mature-fitness')} Mature fitness
+          %li
+            %a{:href=>url('/classes/buggy-fitness')} Buggy fitness
+          %li
+            %a{:href=>url('/classes/mature-fitness')} Mature fitness
+          %li
+            %a{:href=>url('/classes/exercise-to-music')} Exercise to music
+      .span3
+        .pull-right
+          Built by
+          %a{:href=>'http://www.dave-thompson.co.uk'} Dave Thompson

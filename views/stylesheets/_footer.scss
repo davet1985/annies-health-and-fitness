@@ -1,10 +1,16 @@
 .custom-footer {
   background-color: $lightGrey;
   color: $darkGrey;
-  height: 80px;
   padding-top: 10px;
   border-top: 5px solid $darkRed;
   a {
     color: $darkGrey;
   }
+  ul.inline>li, ul.unstyled>li {
+    padding: 5px 10px 5px 0;
+  }
+}
+
+.sub-heading {
+  font-weight: bold;
 }

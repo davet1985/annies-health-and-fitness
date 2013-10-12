@@ -3,3 +3,16 @@
     .span8.offset2.header-borders
       %h2 Contact
       %p.lead Details of how to contact Anne
+      %form{:method=>'post', :action=>'/contact'}
+        %label{:for=>'name'}
+          %strong Name
+        %input#name{:type=>'text', :name=>'name'}
+        %label{:for=>'email'}
+          %strong Email address
+        %input#email{:type=>'text'}
+        %label{:for=>'message'}
+          %strong Message
+        %input#message{:type=>'text'}
+        %br
+        %br
+        %input.btn.btn-large{:type=>'submit', :value=>'Email me'}
