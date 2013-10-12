@@ -25,6 +25,10 @@ class SeedApp < Sinatra::Base
     haml :contact
   end
 
+  post '/contact' do
+    haml :contact
+  end
+
   get '/styles.css' do
     scss :styles
   end
