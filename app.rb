@@ -26,6 +26,9 @@ class SeedApp < Sinatra::Base
   end
 
   post '/contact' do
+    Pony.mail :to => 'davethompson21@gmail.com',
+              :from => 'me@example.com',
+              :subject => 'Howdy, Partna!'
     haml :contact
   end
 
